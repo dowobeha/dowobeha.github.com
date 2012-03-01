@@ -1,0 +1,9 @@
+Psycholinguistic studies suggest a model of human language processing that
+
+1) performs incremental interpretation of spoken utterances or written text,
+
+2) preserves ambiguity by maintaining competing analyses in parallel, and
+
+3) operates within a severely constrained short-term memory store --- possibly constrained to as few as four distinct elements.
+
+This paper describes a relatively simple model of language as a factored statistical time-series process that meets all three of the above desiderata; and presents corpus evidence that this model is sufficient to parse naturally occurring sentences using human-like bounds on memory.

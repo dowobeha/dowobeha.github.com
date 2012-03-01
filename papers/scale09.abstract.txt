@@ -1,0 +1,10 @@
+This report describes the ﬁndings of the machine translation team from the first Summer Camp for Applied
+Language Exploration (SCALE) hosted at the Human Language Technology Center of Excellence located
+at Johns Hopkins University. This intensive, eight week workshop brought together 20 students, faculty
+and researchers to conduct research on the topic of Semantically Informed Machine Translation (SIMT).
+The type of semantics that were examined at the SIMT workshop were “High Information Value Elements,”
+or HIVEs, which include named entities (such as people or organizations) and modalities (indications that
+a statement represents something that has taken place or is a belief or an intention). These HIVEs were
+examined in the context of machine translation between Urdu and English. The goal of the workshop was
+to identify and translate HIVEs from the foreign language, and to investigate whether incorporating this sort
+of structured semantic information into machine translation (MT) systems could produce better translations.

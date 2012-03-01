@@ -1,0 +1,5 @@
+This paper describes an implementation of a shell-like spoken language interface that utilizes referential context (that is, information about the current state of an interfaced application) in order to achieve accurate recognition -- even in user-defined domains with no available domain-specific training corpora.
+
+The interface incorporates a knowledge of context into its model of syntax, yielding a referential semantic language model.
+
+Interestingly, the referential semantic language model exploits context dynamically, unlike other recent systems, by using incremental processing and the limited stack memory of an HMM-like time series model.

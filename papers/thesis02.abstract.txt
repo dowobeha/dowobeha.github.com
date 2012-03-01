@@ -1,0 +1,7 @@
+In recent years, significant advances have been made in the use of corpora as tools in language processing. Lexical acquisiton techinques have been somewhat successful in learning verb subcategorization information. Yet much of the other information available from corpora has not been harnessed. The countability property of nouns is one property that would be useful to acquire. Such information could help in word sense disambiguation, in determining appropriate determiners during generation (especially in the case of machine translation), and as a lexicographic resource during dictionary construction. 
+
+Existing lexical resources which include countability features of nouns have been created largely by hand. Manual tagging of noun countability is expensive in terms of time and labor. It is difficult to extend such resources as new terminology emerges. 
+
+This thesis presents a method of automatically acquiring countability properties of head nouns. This information is gathered from a part-of-speech tagged corpus, specifically the British National Corpus (BNC). Basic noun phrase chunking is performed on the corpus to obtain head nouns and their accompanying determiner, if any. High-reliability grammatical cues are used to automatically tag head noun tokens as either count or non-count. This method relies heavily on the grammatical role determiners play in the countability of head nouns. 
+
+This thesis demonstrates that the method used is both grammatically sound and successful, showing an improvement over the baseline.

@@ -1,0 +1,5 @@
+This article describes a framework for incorporating referential semantic information from a world model or ontology directly into a probabilistic language model of the sort commonly used in speech recognition, where it can be probabilistically weighted together with phonological and syntactic factors as an integral part of the decoding process.
+
+Introducing world model referents into the decoding search greatly increases the search space, but by using a single integrated phonological, syntactic, and referential semantic language model, the decoder is able to incrementally prune this search based on probabilities associated with these combined contexts.
+
+The result is a single unified referential semantic probability model which brings several kinds of context to bear in speech decoding, and performs accurate recognition in real time on large domains in the absence of example in-domain training sentences.

@@ -1,0 +1,238 @@
+\documentclass{beamer}
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\usepackage{beamerthemesplit}
+\usepackage{amsmath}
+\usepackage{pstricks,pst-node,pst-tree}
+
+\def\Pr{\mbox{\bf \sf P}}
+\newcommand{\prob}[1]{{\bf \sf P}(#1)}
+\newcommand{\empirprob}[1]{{\bf \sf \tilde P}(#1)}
+\newcommand{\modelprob}[2]{{\bf \sf \hat P}_{#1}(#2)}
+\newcommand{\condprob}[2]{{\bf \sf P}( #1 \,|\, #2 )}
+
+\title{An Open-Source Hierarchical Phrase-Based Machine Translation System}
+\author{Lane Schwartz \\ \texttt{lane@cs.umn.edu}}
+\institute{University of Minnesota}
+
+\date{}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\frame{\tableofcontents}
+
+\section{Background}
+
+\frame { \frametitle{Background}
+
+  Translation is one of the oldest problems in computer science. {\\ \ }
+  
+  \pause
+
+  \begin{itemize}[<+->]
+  \item Rule-based translation
+  	{\\ \ }
+  	\uncover<+->{\\Requires highly trained bilingual linguists}
+  	\uncover<+->{\\And lots and lots of time for them to develop rules}
+  	\uncover<+->{\\Hard to extend to new domains}
+{\\ \ }
+  \item Statistical translation \uncover<+->{$\leftarrow$ We'll use this approach :)}
+  \end{itemize}
+
+}
+
+\section{Statistical Methods}
+
+\frame { \frametitle{Parallel Corpora}
+
+Statistical translation requires large parallel texts.
+
+\pause
+
+  \begin{itemize}[<+->]
+  \item Corporate documentation
+  \item International news organizations
+  \item Governments
+	\begin{itemize}
+	\item United Nations
+	\item Canada
+	\item European Union \uncover<+->{$\leftarrow$ We'll use this data :)}
+	\end{itemize}
+
+  \end{itemize}
+
+}
+
+\frame { \frametitle{Words}
+
+  \begin{itemize}[<+->]
+  \item Word-by-word translation 
+  %{\\ \ }
+  \item Word alignments
+	\begin{itemize}
+	\item Align words by hand
+		\uncover<+->{\\tedious and time-consuming}
+	\item Automatic alignment
+		\uncover<+->{\\uses EM on a parallel corpus; \\see Och \& Ney (2000)}
+		\uncover<+->{\\Many researchers use the freely available GIZA++ tool to automatically extract word alignments}
+	\end{itemize}
+	%{\\ \ }
+  \item Word alignments can be used in more sophisticated translation models. 
+  \end{itemize}
+
+}
+
+
+\frame { \frametitle{Phrases}
+  \begin{itemize}[<+->]
+  \item Phrases may work better than words
+  \item Phrase-based translation
+	\begin{itemize}
+	\item Phrase table
+	\item Reordering model
+	\end{itemize}
+  \item Phrases can be automatically extracted from word alignments.
+  \end{itemize}
+}
+
+\frame { \frametitle{Statistical Models}
+
+\begin{itemize}[<+->]
+
+	\item Traditional noisy-channel approach \\[\baselineskip]
+	\uncover<+->{\[ \argmax_{e} \condprob{e}{f} = \argmax_{e} \prob{e,f} \]}
+	\uncover<+->{\[ \argmax_{e} \condprob{e}{f} = \argmax_{e} \prob{e} \times \condprob{f}{e} \] \\[\baselineskip]}  
+	
+	\item Log-linear approach \\[\baselineskip]
+	\uncover<+->{\[ weight = \prod_{i}{\phi_{i}^{\lambda_{i}}} \]}
+
+\end{itemize}
+
+}
+
+
+\frame { \frametitle{Log-linear features}
+
+	So what features should our log-linear model use?  \pause
+	
+	\begin{itemize}
+	
+		\item<2-> P$_{lm}(e)$
+		\item<2-> $\condprob{f}{e}$
+		\item<3-> $\condprob{e}{f}$
+		\item<3-> $\condprob{f_w}{e_w}$
+		\item<3-> $\condprob{e_w}{f_w}$
+	
+	\end{itemize}
+	
+	\uncover<2-> { Features used in noisy channel approach... \\ }
+	\uncover<3-> { ...and other features empirically found to be useful!}
+	
+	%\uncover<2-> {
+	%	$\alpha$ is a source language phrase. \\
+	%	$\gamma$ is a target language phrase.
+	%}
+
+}
+
+
+\section{Hierarchical phrase-based translation}
+
+\frame { \frametitle{Hierarchical phrase-based translation}
+
+  \begin{itemize}
+  \item<1-> Phrase-based translation
+	\begin{itemize}
+	\item Phrase table
+	\item Reordering model
+	\end{itemize}
+
+  \item<2-> What if we treat translation as a parsing task? \\ 
+  	\uncover<3->{ $\rightarrow$ Phrase table becomes synchronous context free rules \\ }
+  	\uncover<4->{ $\rightarrow$ Reordering model becomes implicit in rule applications }
+  \end{itemize}
+
+
+}
+
+
+\frame { \frametitle{Chiang (2007)}
+
+  Hierarchical phrase-based translation model \pause
+
+  \begin{itemize}[<+->]
+  \item Database of synchronous context-free rules
+  \item Only two nonterminals!!!
+	\begin{itemize}
+	\item X \uncover<+->{ Used in extracted grammar rules }
+	\item S \uncover<+->{ Allows for serial combination of phrases }
+	\end{itemize}
+
+  %\item<2-> What if we treat translation as a parsing task? \\ 
+  	%\uncover<3->{ $\rightarrow$ Phrase table becomes synchronous context free rules \\ }
+  	%\uncover<4->{ $\rightarrow$ Reordering model becomes implicit in rule applications }
+  \end{itemize}
+
+
+}
+
+
+\frame { \frametitle{Our System}
+
+\begin{itemize}[<+->]
+	\item Open source implementation of Chiang (2007)
+	\item Implemented in Java
+	\item Designed to be easily extended
+	\item Data structures map onto the hypergraph architecture of Huang \& Chiang (2005)
+		\begin{itemize}
+  			\item { This allows n-best lists to be easily obtained }
+			\item { N-best lists are needed during parameter tuning }
+		\end{itemize}
+	\item Uses off-the-shelf minimum error rate trainer\\ 
+	      for log-linear parameter training
+
+\end{itemize}
+
+}
+
+
+\frame { \frametitle{Our System}
+
+	What make this system unique? \pause
+	
+	\begin{itemize}[<+->]
+		\item There are two other known implementations of a hierarchical phrase-based system 
+		\item Of the other two...,
+			\begin{itemize}
+  			\item { CMU SAMT - Open source, but doesn't implement cube pruning algorithm. C++ }
+			\item { Chiang's Hiero - Closed source, does implement cube pruning algorithm. Python }
+		\end{itemize}
+		\item Our system...
+			\begin{itemize}
+  			\item { Open source}
+			\item { Implements cube pruning algorithm. }
+			\item { Java }
+		\end{itemize}
+	\end{itemize}
+
+}
+
+
+\frame { \frametitle{Our System}
+
+Code available through anonymous svn at {\tt http://sf.net/projects/nlp-parsers} \\[\baselineskip]
+
+Questions? \\[\baselineskip]
+
+{\tt lane@cs.umn.edu}
+
+
+}
+
+
+
+
+\end{document}

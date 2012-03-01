@@ -1,0 +1,1 @@
+This paper describes a referential semantic language model that achieves accurate recognition in used-defined domains with no available domain-specific training corpora. This model is interesting in that, unlike similar recent systems, it exploits context dynamically, using incremental processing and limited stack memory of an HMM-like time series model to constrain search.

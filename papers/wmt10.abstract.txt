@@ -1,0 +1,4 @@
+We present the Johns Hopkins University submission to the 2010 WMT shared translation task. 
+
+We describe processing steps using open data and open source software used in our submission, 
+and provide the scripts and configurations required to train, tune, and test our machine translation system.

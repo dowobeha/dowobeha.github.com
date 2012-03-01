@@ -1,0 +1,19 @@
+Modern machine translation techniques typically incorporate both a <italic>translation model</italic>, which guides how individual words and phrases can be translated, and a <italic>language model</italic> (LM), which promotes fluency as translated words and phrases are combined into a translated sentence. Most attempts to inform the translation process with linguistic knowledge have focused on infusing syntax into translation models. We present a novel technique for incorporating syntactic knowledge as a language model in the context of statistical phrase-based machine translation (Koehn et al., 2003), one of the most widely used modern translation paradigms.
+
+The major contributions of this work are as follows:
+
+* We present a formal definition of an incremental syntactic language model as a Hierarchical Hidden Markov Model (HHMM), and detail how this model is estimated from a treebank corpus of labelled data. 
+
+* The HHMM syntactic language model has been used in prior work involving parsing, speech recognition, and semantic role labelling. We present the first complete algorithmic definition of the HHMM as a language model.
+
+* We develop a novel and general method for incorporating any generative incremental language model into phrase-based machine translation. We integrate our HHMM incremental syntactic language model into Moses, the prevailing phrase-based decoder.
+
+* We present empirical results that demonstrate substantial improvements in perplexity for our syntactic language model over traditional <italic>n</italic>-gram language models; we also present empirical results on a constrained Urdu-English translation task that demonstrate the use of our syntactic LM.
+
+A standard measure of language model quality is average per-word perplexity. We present empirical results evaluating perplexity of various <italic>n</italic>-gram language models and our syntactic language model on both in-domain and out-of-domain test sets. On an in-domain test set, a traditional 5-gram language model trained on the same data as our syntactic language model outperforms the syntactic language model in terms of perplexity. We find that interpolating the 5-gram LM with the syntactic LM results in improved perplexity results, a 10% absolute reduction in perplexity compared to the 5-gram LM alone.
+
+On an out-of-domain test set, we find that our syntactic LM substantially outperforms all other LMs trained on the same training data. The syntactic LM demonstrates a 58% absolute reduction in perplexity over a 5-gram language model trained on the same training data. On this same out-of-domain test set, we further show that interpolating our syntactic language model with a large Gigaword-scale 5-gram language model results in the best overall perplexity results &mdash; a 61% absolute reduction in perplexity compared to the Gigaword-scale 5-gram language model alone, a 76% absolute reduction in perplexity compared to the syntactic LM alone, and a 90% absolute reduction in perplexity compared to the original smaller 5-gram language model. 
+
+A language model with low perplexity is a theoretically good model of the language; it is expected that using an LM with low perplexity as a component of a machine translation system should result in more fluent translations. We present empirical results on a constrained Urdu-English translation task and perform an informal manual evaluation of translation results which suggests that the use of our incremental syntactic language model is indeed serving to guide the translation algorithm towards more fluent target language translations.
+
+

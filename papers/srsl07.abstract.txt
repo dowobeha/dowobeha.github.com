@@ -1,0 +1,7 @@
+Context-sensitive speech recognizers use environment or discourse information to influence language model probabilities used in speech decoding.
+
+This is usually done by switching language models between utterances.
+
+This paper explores the use of a continuously context-sensitive language model that uses incremental interpretation to update context at every time step in decoding.
+
+Because it only explores the world model incrementally, this semantic model does not need to be pre-computed, raising the possibility of representing continuously-variable concepts as semantic referents (such as time points and measurements, or real numbers themselves), and supporting dynamic reasoning about consequences of actions during speech decoding.

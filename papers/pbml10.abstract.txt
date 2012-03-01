@@ -1,0 +1,6 @@
+While example-based machine translation has long used corpus information at run-time,
+statistical phrase-based approaches typically include a preprocessing stage where an aligned
+parallel corpus is split into phrases, and parameter values are calculated for each phrase using
+simple relative frequency estimates. This paper describes an open source implementation of
+the crucial algorithms presented in (Lopez, 2008) which allow direct run-time calculation of
+SCFG translation rules in Joshua.

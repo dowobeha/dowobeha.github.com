@@ -1,0 +1,19 @@
+Spoken language interfaces based on interactive semantic language
+models allow probabilities for
+hypothesized words to be conditioned on the semantic interpretation of
+these words in the context of some interfaced application environment.
+
+This conditioning may allow users to avoid recognition errors in an
+intuitive way, by adding extra, possibly redundant description.
+
+This paper evaluates the effect on error reduction of redundant
+descriptions in an interactive semantic language model.
+
+In order to evaluate the effect in natural use, the model is run on
+rich domains, supporting references to sets of individuals (instead of
+just individuals themselves) arranged in multiple continuous
+dimensions (a 2-D floorplan scene).
+
+Results of these experiments suggest that an interactive semantic language
+model allows users to achieve significantly higher recognition accuracy by 
+providing additional redundant spoken description.
