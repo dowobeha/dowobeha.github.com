@@ -1,0 +1,11 @@
+Each iteration of minimum error rate training involves re-translating a development set.
+
+Distributing this work across computational nodes can speed up translation time, 
+but in practice some parts may take much longer to complete than others, 
+leading to computational slack time. 
+
+To address this problem, we develop three novel algorithms 
+for distributing translation tasks in a parallel computing environment, 
+drawing on research in parallel machine scheduling. 
+
+We present results showing a substantial speedup in overall decoding time.
