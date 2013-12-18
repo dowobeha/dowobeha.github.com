@@ -1,0 +1,15 @@
+This paper describes the MIT-LL/AFRL statistical MT system
+and the improvements that were developed during the IWSLT 2013
+evaluation campaign. As part of these efforts, we experimented
+with a number of extensions to the standard phrase-based model that
+improve performance on the Russian to English, Chinese to English,
+Arabic to English, and English to French TED-talk translation task.
+We also applied our existing ASR system to the TED-talk lecture
+ASR task.
+
+We discuss the architecture of the MIT-LL/AFRL MT system,
+improvements over our 2012 system, and experiments we ran during 
+the IWSLT-2013 evaluation. Specifically, we focus on 1) cross-
+entropy filtering of MT training data, and 2) improved optimization
+techniques, 3) language modeling, and 4) approximation of out-of-
+vocabulary words.
