@@ -1,0 +1,14 @@
+This invited talk examines the state of interactive MT and post-editing technologies,
+and how they can and should be made available to human translators and post-editors.
+
+Writing in 1980, roughly 25 years after the first machine translation experiments, 
+Martin Kay published a critique of contemporary machine translation that called for the
+development of co-operative human-machine translation systems.
+
+Many of the techniques advocated by Kay (1980), including terminology management systems,
+electronic dictionaries and concordances, have been widely incorporated into commercially
+available computer-aided translation software.
+
+Other techniques that follows the spirit of Kay's call for a translator's amanuensis are 
+currently being explored by current research in interactive MT and post-editing.
+ 
