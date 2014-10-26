@@ -1,0 +1,13 @@
+Various small-scale pilot studies have found that for at least some documents, monolingual target language speakers may be able to successfully post-edit machine translations. 
+
+We begin by analyzing previously published post-editing data to ascertain the effect, if any, of original source language on post-editing quality.
+
+Schwartz et al (2014) hypothesized that post-editing success may be more pronounced when the monolingual post-editors are experts in the domain of the translated documents. 
+
+This work tests that hypothesis by asking a domain expert to post-edit machine translations of a French scientific article Besacier (2014) into English. 
+
+We find that the monolingual domain expert post-editor was able to successfully post-edit 86.7% of the sentences without requesting assistance from a bilingual post-editor. 
+
+We evaluate the post-edited sentences according to a bilingual adequacy metric, and find that 96.5% of those sentences post-edited by only a monolingual post-editor are judged to be completely correct.
+
+These results confirm that a monolingual domain expert can successfully triage the post-editing effort, substantially reducing the workload on the bilingual post-editor by only sending the most challenging sentences to the bilingual post-editor.
