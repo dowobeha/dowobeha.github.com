@@ -1,0 +1,9 @@
+We present an initial web-based tool for St. Lawrence Island/Central Siberian Yupik, an endangered language of Alaska and Russia.
+
+This work is supported by the local language community on St. Lawrence Island, and includes an orthographic utility to convert from standard Latin orthography into a fully transparent representation, a preliminary spell checker, a Latin-to-Cyrillic transliteration tool, and a preliminary Cyrillic-to-Latin transliteration tool.
+
+Also included is a utility to convert from standard Latin orthography into both IPA and Americanist phonetic notation.
+
+Our utility is also capable of explicitly marking syllable boundaries and stress in the standard Latin orthography using the conventions of Jacobson (2001), as well as in Cyrillic and in standard IPA notation.
+
+These tools are designed to facilitate the digitization of existing Yupik resources, facilitate additional linguistic  eld work, and most importantly, bolster efforts by the local Yupik communities in the U.S. and in Russia to promote Yupik usage and literacy, especially among Yupik youth.

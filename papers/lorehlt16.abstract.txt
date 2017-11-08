@@ -1,0 +1,17 @@
+This paper describes an entry to the 2016 LoreHLT named entity recognition task that attempted to 
+leverage a grammar induction system to provide features that would be an improvement
+over simple word-based features.
+
+The system used was an unsupervised 
+Bayesian Hierarchical Hidden Markov Model implementation of a left-corner parser [van Schijndel et al., 2013].
+
+Our primary submission used a conditional random field to do bootstrapping, with lexical
+features extracted from the surface text and syntactic features extracted from parses
+of our grammar induction system.
+
+While our syntactic features did not now benefit the task of named entity extraction, 
+we conclude that this may have been due to the fact that, at time of evaluation, 
+the grammar induction system parsed sentences without recursion, 
+or that features extracted closer to system convergence would have fared better.
+
+Otherwise, our syntactic features, which have contributed to performance on parsing and part of speech induction tasks, may not have benefitted named entity extraction because the task itself may not be syntactic in nature.

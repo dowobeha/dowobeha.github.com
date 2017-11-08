@@ -1,0 +1,30 @@
+These proceedings contain the papers presented at the 2nd Workshop on the Use of Computational
+Methods in the Study of Endangered languages held in Honolulu, March 6–7, 2017. The workshop itself
+was co-located and took place after the 5th International Conference on Language Documentation and
+Conservation (ICLDC) at the University of Hawai‘i at Manoa. As the name implies, this is the second
+workshop held on the topic — the previous meeting was co-located with the ACL main conference in
+Baltimore, Maryland in 2014.
+
+The workshop covers a wide range of topics relevant to the study and documentation of endangered
+languages, ranging from technical papers on working systems and applications, to reports on
+community activities with supporting computational components.
+
+The purpose of the workshop is to bring together computational researchers, documentary linguists, and
+people involved with community efforts of language documentation and revitalization to take part in
+both formal and informal exchanges on how to integrate rapidly evolving language processing methods
+and tools into efforts of language description, documentation, and revitalization. The organizers are
+pleased with the range of papers, many of which highlight the importance of interdisciplinary work and
+interaction between the various communities that the workshop is aimed towards.
+
+We received 39 submissions as long papers, short papers, or extended abstracts, of which 23 were
+selected for this volume (59%). In the proceedings, all papers are either short (≤5 pages) or long
+(≤9 pages). In addition, the workshop also features presentations from representatives of the National
+Science Foundation (NSF). Two panel dicussions on the topic of interaction between computational
+linguistics and the documentation and revitalization community as well as future planning of ComputEL
+underlined the demand and necessity of a workshop of this nature.
+
+The organizing committee would like to thank the program committee for their thoughtful input on
+the submissions, as well as the organizers of ICLDC. We are also grateful to the NSF for funding part
+of the workshop (awards #1404352 and #1550905), and the Social Sciences and Humanities Research
+Council (SSHRC) of Canada for supporting the workshop through their Connections Outreach Grant
+#611-2016-0207.

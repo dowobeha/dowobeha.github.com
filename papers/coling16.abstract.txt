@@ -1,0 +1,10 @@
+This paper presents a new memory-bounded left-corner parsing model for unsupervised raw-text syntax induction, using unsupervised hierarchical hidden Markov models (UHHMM).
+
+We deploy this algorithm to shed light on the extent to which human language learners can discover hierarchical syntax through distributional statistics alone, by modeling two widely-accepted features of human language acquisition and sentence processing that have not been simultaneously modeled by any existing grammar induction algorithm:
+
+(1) a left-corner parsing strategy and 
+(2) limited working memory capacity. 
+
+To model realistic input to human language learners, we evaluate our system on a corpus of child-directed speech rather than typical newswire corpora.
+
+Results beat or closely match those of three competing systems.

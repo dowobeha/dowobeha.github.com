@@ -1,0 +1,5 @@
+This work examines the history of machine translation (MT), from its intellectual roots in the 17th century search for universal language through its practical realization in the late 20th and early 21st centuries. 
+
+We survey the major MT paradigms, including transfer-based, interlingua, and statistical approaches. 
+
+We examine the current state of human-machine partnership in translation, and consider the substantial, yet largely unfulfilled, promise that MT technology has for human translation professionals.

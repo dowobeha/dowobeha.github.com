@@ -1,0 +1,11 @@
+We prove that log-linearly interpolated backoff language models can be efficiently and exactly collapsed into a single normalized backoff model, contradicting Hsu (2007).
+
+While prior work reported that log-linear interpolation yields lower perplexity than linear interpolation, normalizing at query time was impractical.
+
+We normalize  the model offline in advance, which is efficient due to a recurrence relationship between the normalizing factors.
+
+To tune interpolation weights, we apply Newton’s method to this convex problem and show that the derivatives can be computed efficiently in a batch process.
+
+These findings are combined in new open-source interpolation tool, which is distributed with KenLM.
+
+With 21 out-of-domain corpora, log-linear interpolation yields 72.58 perplexity on TED talks, compared to 75.91 for linear interpolation.
