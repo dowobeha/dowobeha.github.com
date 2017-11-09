@@ -1,0 +1,20 @@
+AMTA occupies a unique place among MT research conferences, with one eye trained on
+the continuing development of novel research techniques and another on the practical
+application of those techniques in the commercial and government arenas. This year's
+research program reflects that diversity. This year we accepted 15 papers for oral
+presentation out of a total of 29 submissions. The accepted papers cover a nice variety of
+topics including low resource and interactive MT, post-editing, and domain adaptation.
+Over the past two years, the machine translation research landscape has undergone a
+rapid transition away from the phrase-based techniques that have been dominant for the
+past 10+ years, and towards new methods using artificial neural networks. This year's
+program reflects that trend, with a number of papers applying neural techniques across a
+broad range of MT tasks.
+
+As chairs of the research track, we would like to thanks all of the authors as well as the
+many reviewers whose hard work enabled this conference. It has also been a great
+pleasure to work with George Foster and the other members of the AMTA 2016 organizing
+committee.
+
+Please enjoy this year's AMTA research track.
+Lane Schwartz
+Spence Green
