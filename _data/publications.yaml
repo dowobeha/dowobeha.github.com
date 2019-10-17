@@ -32,8 +32,8 @@
   date:      "Summer 2019"
   abstract:  "https://www.clsp.jhu.edu/workshops/19-workshop/neural-polysynthetic-language-modeling-leveraging-related-low-resource-languages-and-rule-based-resources/"
   pdf:       "https://www.clsp.jhu.edu/workshops/19-workshop/"
-  video:     "https://www.youtube.com/watch?v=fDd2AnJfFc8&t=8524"
-  video:     "https://www.youtube.com/watch?v=f9q9oWrBuqc&t=1671"
+  opening_video:     "https://www.youtube.com/watch?v=fDd2AnJfFc8&t=8524"
+  closing_video:     "https://www.youtube.com/watch?v=f9q9oWrBuqc&t=1671"
 -
   title:    "Unsupervised Learning of PCFGs with Normalizing Flow"
   authors:

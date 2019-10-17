@@ -76,6 +76,8 @@ order: 01
 {% if publication.bib %}{% if needDash %} - {% endif %}{% assign needDash = true %}<span><a href="{{ publication.bib }}">bib</a></span>{% endif %}
 {% if publication.code %}{% if needDash %} - {% endif %}{% assign needDash = true %}<span><a href="{{ publication.code }}">code</a></span>{% endif %}
 {% if publication.demo %}{% if needDash %} - {% endif %}{% assign needDash = true %}<span><a href="{{ publication.demo }}">demo</a></span>{% endif %}
+{% if publication.opening_video %}{% if needDash %} - {% endif %}{% assign needDash = true %}<span><a href="{{ publication.opening_video }}">video (opening presentation)</a></span>{% endif %}
+{% if publication.closing_video %}{% if needDash %} - {% endif %}{% assign needDash = true %}<span><a href="{{ publication.closing_video }}">video (closing presentation)</a></span>{% endif %}
 {% if publication.video %}{% if needDash %} - {% endif %}{% assign needDash = true %}<span><a href="{{ publication.video }}">video</a></span>{% endif %}
 {% if publication.latex %}{% if needDash %} - {% endif %}{% assign needDash = true %}<span><a href="{{ publication.latex }}">latex</a></span>{% endif %}
 {% if publication.poster.pdf %}{% if needDash %} - {% endif %}{% assign needDash = true %}<span><a href="{{ publication.poster.pdf }}">poster</a>{% if publication.poster.latex %} (<a href="{{ publication.poster.latex }}">source</a>){% elsif publication.poster.pages %} (<a href="{{ publication.poster.pages }}">source</a>){% endif %}</span>{% endif %}
