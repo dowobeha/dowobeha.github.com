@@ -310,6 +310,7 @@
     pdf:     "papers/computEL2.schedule.pdf"
   slides:
     pdf:     "papers/computEL2.schedule.pdf"
+  website:  "https://computel-workshop.org/computel/computel-2"
 -
   type:      "inproceedings"
   title:     "Memory-Bounded Left-Corner Unsupervised Grammar Induction on Child-Directed Input"
