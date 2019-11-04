@@ -104,6 +104,7 @@
   abstract: "papers/computel19.abstract.txt"
   slides:
     pdf:  "papers/computel19.slides.pdf"
+    latex: "papers/computel19.slides.zip"
   venue:     "Proceedings of the 3rd Workshop on the Use of Computational Methods in the Study of Endangered Languages (ComputEL-3)"
   address:   "Mānoa, Hawaiʻi"
   month:     "Feb"
