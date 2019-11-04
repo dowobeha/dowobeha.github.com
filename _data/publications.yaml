@@ -164,6 +164,10 @@
   bib:      "papers/lrec18.bib"
   pdf:      "papers/lrec18.pdf"
   code:     "https://github.com/SaintLawrenceIslandYupik/finite_state_morphology"
+  latex:    "papers/lrec18.zip"
+  poster:
+    pdf:    "papers/lrec18.poster.pdf"
+    latex:  "papers/lrec18.poster.zip"
 -
   title:    "DLVM: A modern compiler infrastructure for deep learning systems"
   type:     "inproceedings"
