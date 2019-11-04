@@ -124,6 +124,7 @@
   address:   "Mānoa, Hawaiʻi"
   month:     "Feb"
   year:      "2019"
+  abstract:  "papers/computEL3.abstract.txt"
   bib: "https://www.aclweb.org/anthology/volumes/W19-60.bib"
   website:  "https://computel-workshop.org/computel/computel-3"
 -
