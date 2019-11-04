@@ -1,0 +1,26 @@
+These proceedings contain the papers presented at the 3rd Workshop on the Use of Computational
+Methods in the Study of Endangered languages held in Hawai’i at Manoa, February 26–27, 2019. As
+the name implies, this is the third workshop held on the topic — the first meeting was co-located with
+the ACL main conference in Baltimore, Maryland in 2014 and the second one in 2017 was co-located
+with the 5th International Conference on Language Documentation and Conservation (ICLDC) at the
+University of Hawai‘i at Manoa.
+
+The workshop covers a wide range of topics relevant to the study and documentation of endangered
+languages, ranging from technical papers on working systems and applications, to reports on community
+activities with supporting computational components.
+
+The purpose of the workshop is to bring together computational researchers, documentary linguists, and
+people involved with community efforts of language documentation and revitalization to take part in
+both formal and informal exchanges on how to integrate rapidly evolving language processing methods
+and tools into efforts of language description, documentation, and revitalization. The organizers are
+pleased with the range of papers, many of which highlight the importance of interdisciplinary work and
+interaction between the various communities that the workshop is aimed towards.
+
+We received 34 submissions as papers or extended abstracts. After a thorough review process, 12 of the
+submissions were selected for this volume as papers (35%) and an additional 7 were accepted as extended
+abstracts which appear in Volume 2 of the workshop proceedings. The organizing committee would like
+to thank the program committee for their thoughtful input on the submissions. We are also grateful to
+the NSF for funding part of the workshop (award #1550905), and the Social Sciences and Humanities
+Research Council (SSHRC) of Canada for supporting the workshop through their Connections Outreach
+Grant #611-2016-0207. We would moreover want to acknowledge the support of the organizers of
+ICLDC6, in particular Gary Holton, Brad McDonnell and Jim Yoshioka.
