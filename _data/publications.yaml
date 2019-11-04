@@ -1,4 +1,22 @@
 -
+  title:    "Initiating a tool-building infrastructure for the use of the St. Lawrence Island Yupik language community"
+  abstract: "https://iyil2019perspectives.files.wordpress.com/2019/10/final-abstract-organized-by-schedule.pdf#page=12"
+  presentation:  "https://docs.google.com/presentation/d/e/2PACX-1vQDcDCjZqb4ldwsBBb--UeGhG1eboSVaEDcjV4-eU6DKqFHJ3_VkMdltN_scRqXVEf4tBHukKSetzER/pub?start=false&loop=false&delayms=3000"
+  type: "presentation"
+  venue:    "The International Year of Indigenous Languages 2019: Perspectives Conference"
+  address:  "Fort Wayne, Indiana"
+  authors:
+   - "Lane Schwartz"
+   - "Sylvia L.R. Schreiner"
+   - "Peter Zukerman"
+   - "Giulia Masella Soldati"
+   - "Emily Chen"
+   - "Benjamin Hunt"
+  year: "2019"
+  month:    "October"
+  date: "Oct 2019"
+  code: "https://github.com/dowobeha/ebook-creator"
+-
   title:    "Community-focused language documentation in support of language education and revitalization for St. Lawrence Island Yupik"
   type:     "journal"
   journal:  "Études Inuit Studies"
