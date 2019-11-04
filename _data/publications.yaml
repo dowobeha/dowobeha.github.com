@@ -112,7 +112,7 @@
   year:      "2019"
 -
   title:     "Proceedings of the 3rd Workshop on the Use of Computational Methods in the Study of Endangered Languages (ComputEL-3)"
-  pdf:       "https://computel-workshop.org/wp-content/uploads/2019/02/CEL3_book_papers_draft.pdf"
+  pdf:       "https://www.aclweb.org/anthology/W19-60.pdf"
   editors:
     - "Antti Arppe"
     - "Jeff Good"
@@ -124,6 +124,8 @@
   address:   "Mānoa, Hawaiʻi"
   month:     "Feb"
   year:      "2019"
+  bib: "https://www.aclweb.org/anthology/volumes/W19-60.bib"
+  website:  "https://computel-workshop.org/computel/computel-3"
 -
   title:    "Depth-bounding is effective: Improvements and Evaluation of Unsupervised PCFG Induction"
   authors:
