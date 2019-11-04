@@ -91,6 +91,7 @@
   demo:      "https://saintlawrenceislandyupik.github.io/web_tools/index_dictionary_1.html"
   pdf:       "https://www.aclweb.org/anthology/N19-4021.pdf"
   video:     "https://youtu.be/quPyL3SXsdk"
+  latex:     "papers/naacl19.latex.zip"
 -
   title:    "Bootstrapping a Neural Morphological Analyzer for St. Lawrence Island Yupik from a Finite-State Transducer"
   authors:
