@@ -92,13 +92,15 @@
   pdf:       "https://www.aclweb.org/anthology/N19-4021.pdf"
   video:     "https://youtu.be/quPyL3SXsdk"
 -
-  title:    "Bootstrapping a Neural Morphological Analyzer for St. Lawrence Island Yupik from a Finite-State Transducer."
+  title:    "Bootstrapping a Neural Morphological Analyzer for St. Lawrence Island Yupik from a Finite-State Transducer"
   authors:
    - "Lane Schwartz"
    - "Emily Chen"
    - "Benjamin Hunt"
    - "Sylvia Schreiner"
   type:      "inproceedings"
+  pdf:  "https://www.aclweb.org/anthology/W19-6012.pdf"
+  bib:  "https://www.aclweb.org/anthology/W19-6012.bib"
   venue:     "Proceedings of the 3rd Workshop on the Use of Computational Methods in the Study of Endangered Languages (ComputEL-3)"
   address:   "Mānoa, Hawaiʻi"
   month:     "Feb"
