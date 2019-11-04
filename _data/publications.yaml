@@ -101,6 +101,7 @@
   type:      "inproceedings"
   pdf:  "https://www.aclweb.org/anthology/W19-6012.pdf"
   bib:  "https://www.aclweb.org/anthology/W19-6012.bib"
+  abstract: "papers/computel19.abstract.txt"
   venue:     "Proceedings of the 3rd Workshop on the Use of Computational Methods in the Study of Endangered Languages (ComputEL-3)"
   address:   "Mānoa, Hawaiʻi"
   month:     "Feb"
