@@ -3,17 +3,28 @@
   type:     "journal"
   journal:  "Études Inuit Studies"
   month:    "In press"
-  year:     "2019"
+  year:     "2020"
   authors:
    - "Lane Schwartz"
    - "Sylvia Schreiner"
    - "Emily Chen"
 -
+  title:    "Multidirectional leveraging for computational morphology and language documentation and revitalization"
+  type:     "journal"
+  journal:  "Language Documentation & Conservation"
+  authors:
+   - "Sylvia L.R. Schreiner"
+   - "Lane Schwartz"
+   - "Benjamin Hunt"
+   - "Emily Chen"
+  month:    "In press"
+  year:     "2020"
+-
   title:    "Language Shift, Language Technology, and Language Revitalization: Challenges and Possibilities for St. Lawrence Island Yupik"
   authors:
    - "Lane Schwartz"
   type:      "inproceedings"
-  venue:     "Proceedings of the International Conference Language Technologies for All (LT4All): Enabling Linguistic Diversity and Multilingualism Worldwide"
+  venue:     "Proceedings of the International Conference Language Technologies for All (LT4All):<br>Enabling Linguistic Diversity and Multilingualism Worldwide"
   address:   "UNESCO Headquarters, Paris, France"
   month:     "December"
   year:      "2019"
