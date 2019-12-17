@@ -22,6 +22,20 @@
   bib:       "papers/lt4all2019.O8-141.bib"
   pdf:       "https://lt4all.org/media/papers/O8/141.pdf"
 -
+  title:    "St. Lawrence Island Yupik Language Technology for Documentation & Revitalization"
+  authors:
+   - "Lane Schwartz"
+   - "Emily Chen"
+   - "Hayley Park"
+   - "Sylvia L.R. Schreiner"
+   - "Benjamin Hunt"
+  type:      "inproceedings"
+  venue:     "Proceedings of the International Conference Language Technologies for All (LT4All):<br>Enabling Linguistic Diversity and Multilingualism Worldwide"
+  address:   "UNESCO Headquarters, Paris, France"
+  month:     "December"
+  year:      "2019"
+  date:      "Dec 2019"
+-
   title:    "Initiating a tool-building infrastructure for the use of the St. Lawrence Island Yupik language community"
   pdf:  "https://iyil2019perspectives.files.wordpress.com/2019/10/final-abstract-organized-by-schedule.pdf#page=12"
   abstract: "https://iyil2019perspectives.files.wordpress.com/2019/10/final-abstract-organized-by-schedule.pdf#page=12"
