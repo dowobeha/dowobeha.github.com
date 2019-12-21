@@ -363,7 +363,7 @@
   abstract:  "papers/cuny17.abstract.pdf"
   bib:       "papers/cuny17.bib"
   poster:
-    pdf:     "papers/cuny17.pdf"
+    pdf:     "papers/cuny17.poster.pdf"
 -
   title:     "Proceedings of the 2nd Workshop on the Use of Computational Methods in the Study of Endangered Languages (ComputEL-2)"
   pdf:       "http://aclweb.org/anthology/W/W17/W17-01.pdf"
