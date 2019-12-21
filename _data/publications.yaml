@@ -343,6 +343,28 @@
   website:   "http://computational.linguistics.illinois.edu/yupik"
   pdf:       "https://scholarspace.manoa.hawaii.edu/handle/10125/24736"
 -
+  title:    "Modeling syntax acquisition via cognitively-constrained unsupervised grammar induction"
+  authors:
+    - "Cory Shain"
+    - "William Bryce"
+    - "Lifeng Jin"
+    - "Victoria Krakovna"
+    - "Finale Doshi-Velez"
+    - "Timothy Miller"
+    - "William Schuler"
+    - "Lane Schwartz"
+  type:      "inproceedings"
+  venue:     "Proceedings of the 30th Annual CUNY Conference on Human Sentence Processing"
+  address:   "MIT"
+  month:     "March"
+  year:      "2017"
+  date:      "Mar 2017"
+  pdf:       "papers/cuny17.abstract.pdf"
+  abstract:  "papers/cuny17.abstract.pdf"
+  bib:       "papers/cuny17.bib"
+  poster:
+    pdf:     "papers/cuny17.pdf"
+-
   title:     "Proceedings of the 2nd Workshop on the Use of Computational Methods in the Study of Endangered Languages (ComputEL-2)"
   pdf:       "http://aclweb.org/anthology/W/W17/W17-01.pdf"
   editors:
