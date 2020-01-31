@@ -21,6 +21,9 @@
   year:     "2020"
   date:     "Jan 2020"
   pdf:      "https://scholarspace.manoa.hawaii.edu/bitstream/10125/24917/schreiner_et_al.pdf"
+  abstract: "papers/ldc20.abstract.txt"
+  bib:      "papers/ldc20.bib"
+  code:     "https://github.com/SaintLawrenceIslandYupik"
 -
   title:    "Language Shift, Language Technology, and Language Revitalization: Challenges and Possibilities for St. Lawrence Island Yupik"
   authors:
