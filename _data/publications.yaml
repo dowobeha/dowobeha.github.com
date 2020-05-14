@@ -43,7 +43,8 @@
   bib:       "papers/jsalt20.bib"
   code:      "https://github.com/neural-polysynthetic-language-modelling"
   latex:     "papers/jsalt20.latex.zip"
-  slides:    "https://docs.google.com/presentation/d/e/2PACX-1vSR0FumkotQngXyWFIOXEu49g7Qn9bqLq4SATB3z-UmjvrmnlZh8Tc46dnlrTMdR6y-GS6FsgBFv236/pub?start=false&loop=false&delayms=3000"
+  slides:    
+    pdf:     "https://docs.google.com/presentation/d/e/2PACX-1vSR0FumkotQngXyWFIOXEu49g7Qn9bqLq4SATB3z-UmjvrmnlZh8Tc46dnlrTMdR6y-GS6FsgBFv236/pub?start=false&loop=false&delayms=3000"
 -
   title:    "Multidirectional leveraging for computational morphology and language documentation and revitalization"
   type:     "journal"
