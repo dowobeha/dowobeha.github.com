@@ -1,0 +1,15 @@
+Many techniques in modern computational linguistics and natural language processing (NLP) make the assumption that approaches that work well on English and other widely used European (and sometimes Asian) languages are “language agnostic” – that is that they will also work across the typologically diverse languages of the world.
+In high-resource languages, especially those that are analytic rather than synthetic, a common approach is to treat morphologically-distinct variants of a common root (such as dog and dogs) as completely independent word types.
+Doing so relies on two main assumptions: that there exist a limited number of morphological inflections for any given root, and that most or all of those variants will appear in a large enough corpus (conditioned on assumptions about domain, etc.) so that the model can adequately learn statistics about each variant.
+Approaches like stemming, lemmatization, morphological analysis, subword segmentation, or other normalization techniques are frequently used when either of those assumptions are likely to be violated, particularly in the case of synthetic languages like Czech and Russian that have more inflectional morphology than English.
+
+Within the NLP literature, agglutinative languages like Finnish and Turkish are commonly held up as extreme examples of morphological complexity that challenge common modelling assumptions.
+Yet, when considering all of the world’s languages, Finnish and Turkish are closer to the average case in terms of synthesis. 
+When we consider polysynthetic languages (those at the extreme of morphological complexity), even approaches like stemming, lemmatization, or subword modelling may not suffice.
+These languages have very high numbers of hapax legomena (words appearing only once in a corpus), underscoring the need for appropriate morphological handling of words, without which there is no hope for a model to capture enough statistical information about those words.
+Moreover, many of these languages have only very small text corpora, substantially magnifying these challenges.
+
+To this end, we examine the current state-of-the-art in language modelling, machine translation, and predictive text completion in the context of four polysynthetic languages: Guaraní, St. Lawrence Island Yupik, Central Alaskan Yup’ik, and Inuktitut.
+We have a particular focus on Inuit-Yupik, a highly challenging family of endangered polysynthetic languages that ranges geographically from Greenland through northern Canada and Alaska to far eastern Russia.
+The languages in this family are extraordinarily challenging from a computational perspective, with pervasive use of derivational morphemes in addition to rich sets of inflectional suffixes and phonological challenges at morpheme boundaries.
+Finally, we propose a novel framework for language modelling that combines knowledge representations from finite-state morphological analyzers with Tensor Product Representations (Smolensky, 1990) in order to enable successful neural language models capable of handling the full linguistic variety of typologically variant languages.
