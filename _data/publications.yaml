@@ -9,6 +9,41 @@
    - "Sylvia Schreiner"
    - "Emily Chen"
 -
+  title:    "Neural Polysynthetic Language Modelling"
+  authors:
+   - Lane Schwartz
+   - Francis Tyers
+   - Lori Levin
+   - Christo Kirov
+   - Patrick Littell
+   - Chi-kiu Lo
+   - Emily Prud’hommeaux
+   - Hyunji Hayley Park
+   - Kenneth Steimel
+   - Rebecca Knowles
+   - Jeffrey Micher
+   - Lonny Strunk
+   - Han Liu
+   - Coleman Haley
+   - Katherine J. Zhang
+   - Robbie Jimmerson
+   - Vasilisa Andriyanets
+   - Aldrian Obaja Muis
+   - Naoki Otani
+   - Jong Hyuk Park
+   - Zhisong Zhang
+  type:      "inproceedings"
+  venue:     "Final Report of the Neural Polysynthetic Language Modelling Team at the 2019 Frederick Jelinek Memorial Summer Workshop"
+  address:   "Montréal, Canada"
+  month:     "May"
+  year:      "2020"
+  date:      "May 2020"
+  pdf:       "https://arxiv.org/pdf/2005.05477.pdf"
+  abstract:  "papers/jsalt20.abstract.txt"
+  bib:       "papers/jsalt20.bib"
+  code:      "https://github.com/neural-polysynthetic-language-modelling"
+  latex:     "papers/jsalt20.latex.zip"
+-
   title:    "Multidirectional leveraging for computational morphology and language documentation and revitalization"
   type:     "journal"
   journal:  "Language Documentation & Conservation"
