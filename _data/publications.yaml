@@ -46,6 +46,22 @@
   slides:    
     pdf:     "https://docs.google.com/presentation/d/e/2PACX-1vSR0FumkotQngXyWFIOXEu49g7Qn9bqLq4SATB3z-UmjvrmnlZh8Tc46dnlrTMdR6y-GS6FsgBFv236/pub?start=false&loop=false&delayms=3000"
 -
+  title:    "Improved Finite-State Morphological Analysis for St. Lawrence Island Yupik Using Paradigm Function Morphology"
+  authors:
+   - "Emily Chen"
+   - "Hayley Park"
+   - "Lane Schwartz"
+  type:      "inproceedings"
+  venue:     "Proceedings of the 12th Conference on Language Resources and Evaluation (LREC 2020)"
+  address:   "Marseille, France"
+  month:     "May"
+  year:      "2020"
+  date:      "May 2020"
+  abstract:  "papers/lrec20.abstract.txt"
+  bib:       "http://www.lrec-conf.org/proceedings/lrec2020/bib/2020.lrec-1.326.bib"
+  code:      "https://github.com/chenemile/yupik-foma-v2"
+  pdf:       "http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.326.pdf"
+-
   title:    "Multidirectional leveraging for computational morphology and language documentation and revitalization"
   type:     "journal"
   journal:  "Language Documentation & Conservation"
