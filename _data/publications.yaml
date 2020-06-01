@@ -57,7 +57,7 @@
   month:     "May"
   year:      "2020"
   date:      "May 2020"
-  abstract:  "https://www.aclweb.org/anthology/events/lrec-2020/#abstract-2020--lrec-1--326"
+  abstract:  "papers/lrec20.abstract.txt"
   bib:       "https://www.aclweb.org/anthology/2020.lrec-1.326.bib"
   code:      "https://github.com/chenemile/yupik-foma-v2"
   latex:     "papers/lrec20.latex.zip"
