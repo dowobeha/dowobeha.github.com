@@ -58,9 +58,9 @@
   year:      "2020"
   date:      "May 2020"
   abstract:  "papers/lrec20.abstract.txt"
-  bib:       "http://www.lrec-conf.org/proceedings/lrec2020/bib/2020.lrec-1.326.bib"
+  bib:       "https://www.aclweb.org/anthology/2020.lrec-1.326.bib"
   code:      "https://github.com/chenemile/yupik-foma-v2"
-  pdf:       "http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.326.pdf"
+  pdf:       "https://www.aclweb.org/anthology/2020.lrec-1.326.pdf"
 -
   title:    "Multidirectional leveraging for computational morphology and language documentation and revitalization"
   type:     "journal"
