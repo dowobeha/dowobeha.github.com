@@ -1,15 +1,4 @@
 -
-  title:    "Community-focused language documentation in support of language education and revitalization for St. Lawrence Island Yupik"
-  type:     "journal"
-  journal:  "Études Inuit Studies"
-  volume:    "43"
-  number:    "1-2"
-  year:     "2019"
-  authors:
-   - "Lane Schwartz"
-   - "Sylvia Schreiner"
-   - "Emily Chen"
--
   title:    "Neural Polysynthetic Language Modelling"
   authors:
    - Lane Schwartz
@@ -79,6 +68,17 @@
   abstract: "papers/ldc20.abstract.txt"
   bib:      "papers/ldc20.bib"
   code:     "https://github.com/SaintLawrenceIslandYupik"
+-
+  title:    "Community-focused language documentation in support of language education and revitalization for St. Lawrence Island Yupik"
+  type:     "journal"
+  journal:  "Études Inuit Studies"
+  volume:    "43"
+  number:    "1-2"
+  year:     "2019"
+  authors:
+   - "Lane Schwartz"
+   - "Sylvia Schreiner"
+   - "Emily Chen"
 -
   title:    "Language Shift, Language Technology, and Language Revitalization: Challenges and Possibilities for St. Lawrence Island Yupik"
   authors:
