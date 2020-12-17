@@ -1,4 +1,21 @@
 -
+  title:    "Morphology Matters: A Multilingual Language Modeling Analysis"
+  type:     "journal"
+  journal:  "Transactions of the ACL"
+  authors:
+   - Hyunji Hayley Park
+   - Katherine J. Zhang   
+   - Coleman Haley
+   - Kenneth Steimel
+   - Han Liu   
+   - Lane Schwartz
+  month:    "Forthcoming"
+  year:     "2021"
+  date:     "Forthcoming 2021"
+  pdf:      "https://arxiv.org/pdf/2012.06262.pdf"
+  abstract: "https://arxiv.org/abs/2012.06262"
+  code:     "https://github.com/hayleypark/MorphologyMatters"
+-
   title:    "Neural Polysynthetic Language Modelling"
   authors:
    - Lane Schwartz
