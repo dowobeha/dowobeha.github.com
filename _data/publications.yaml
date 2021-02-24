@@ -16,6 +16,22 @@
   abstract: "https://arxiv.org/abs/2012.06262"
   code:     "https://github.com/hayleypark/MorphologyMatters"
 -
+  title:    "A Digital Corpus of St. Lawrence Island Yupik"
+  authors:
+   - "Lane Schwartz"
+   - "Emily Chen"
+   - "Hyunji Hayley Park"
+   - "Edward Jahn"
+   - "Sylvia Schreiner"
+  type:      "inproceedings"
+  pdf:       "https://arxiv.org/pdf/2101.10496.pdf"
+  code:      "https://github.com/SaintLawrenceIslandYupik/digital_corpus"
+  venue:     "Proceedings of the 4th Workshop on the Use of Computational Methods in the Study of Endangered Languages (ComputEL-4)"
+  address:   "Mānoa, Hawaiʻi"
+  date:      "Mar 2021"
+  month:     "March"
+  year:      "2021"
+-
   title:    "Neural Polysynthetic Language Modelling"
   authors:
    - Lane Schwartz
