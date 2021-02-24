@@ -863,3 +863,18 @@
   bib:       "https://www.aclweb.org/anthology/W09-0424.bib"
   pdf:       "https://www.aclweb.org/anthology/W09-0424.pdf"
   code:      "https://github.com/apache/joshua/archive/v1.0.tar.gz"
+-
+  type:     "inproceedings"
+  title:    "Multi-Source Translation Methods"
+  pdf:      "http://www.mt-archive.info/05/AMTA-2008-Schwartz.pdf"
+  authors:
+    -       "Lane Schwartz"
+  venue:    "Proceedings of the 8th Conference of the Association for Machine Translation in the Americas: Student Research Workshop (AMTA’08)"
+  address:  "Waikiki, Hawaiʻi"
+  date:     "Oct 2008"
+  month:    "October"
+  year:     "2008"
+  abstract: "papers/amta08.abstract.txt"
+  bib:      "papers/amta08.bib"
+  code:     "https://github.com/moses-smt/mosesdecoder"
+ 
