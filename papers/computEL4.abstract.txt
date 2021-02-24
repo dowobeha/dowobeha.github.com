@@ -1,0 +1,9 @@
+St. Lawrence Island Yupik (ISO 639-3: ess) is an endangered polysynthetic language in the Inuit-Yupik language family indigenous to Alaska and Chukotka.
+
+This work presents a step-by-step pipeline for the digitization of written texts, and the first publicly available digital corpus for St. Lawrence Island Yupik, created using that pipeline.
+
+This corpus has great potential for future linguistic inquiry and research in NLP.
+
+It was also developed for use in Yupik language education and revitalization, with a primary goal of enabling easy access to Yupik texts by educators and by members of the Yupik community.
+
+A secondary goal is to support development of language technology such as spell-checkers, text-completion systems, interactive e-books, and language learning apps for use by the Yupik community.
