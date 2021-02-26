@@ -113,7 +113,8 @@
   year:     "2019"
   abstract: "papers/eis19.abstract.txt"
   bib:      "papers/eis19.bib"
-  pdf:      "https://www.etudes-inuit-studies.ulaval.ca/en/content/release-issue-43-1-2"
+  pdf:      "papers/eis19.pdf"
+  website:  "https://www.etudes-inuit-studies.ulaval.ca/en/content/release-issue-43-1-2"
   authors:
    - "Lane Schwartz"
    - "Sylvia Schreiner"
