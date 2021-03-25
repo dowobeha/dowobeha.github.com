@@ -2,6 +2,8 @@
   title:    "Morphology Matters: A Multilingual Language Modeling Analysis"
   type:     "journal"
   journal:  "Transactions of the ACL"
+  volume:   "9"
+  pages:    "261--276"
   authors:
    - Hyunji Hayley Park
    - Katherine J. Zhang   
@@ -9,11 +11,11 @@
    - Kenneth Steimel
    - Han Liu   
    - Lane Schwartz
-  month:    "Forthcoming"
+  month:    "March"
   year:     "2021"
-  date:     "Forthcoming 2021"
-  pdf:      "https://arxiv.org/pdf/2012.06262.pdf"
-  abstract: "https://arxiv.org/abs/2012.06262"
+  date:     "Mar 2021"
+  pdf:      "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00365/98237/Morphology-Matters-A-Multilingual-Language"
+  abstract: "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00365/98237/Morphology-Matters-A-Multilingual-Language#3027685"
   code:     "https://github.com/hayleypark/MorphologyMatters"
 -
   title:    "A Digital Corpus of St. Lawrence Island Yupik"
