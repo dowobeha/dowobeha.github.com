@@ -14,19 +14,21 @@
   type:     "journal"
   journal:  "Language Documentation and Description"
   volume:   "20"
+  pages:    "135-144"
   year:     "2021"
   month:    "December"
   date:     "Dec 2021"
   pdf:      "http://www.elpublishing.org/docs/1/20/ldd20_09.pdf"
+  abstract: "papers/ldd.abstract.txt"
   authors:
-   - "Christopher Petuwaq Koonooka"
-   - "Sylvia L.R. Schreiner"
-   - "Giulia Masella Soldati"
-   - "Lane Schwartz"
-   - "Benjamin Hunt"
-   - "Preston Haas"
-   - "Emily Chen"
-   - "Hyunji Hayley Park"
+   - Christopher Petuwaq Koonooka
+   - Sylvia L.R. Schreiner
+   - Giulia Masella Soldati
+   - Lane Schwartz
+   - Benjamin Hunt
+   - Preston Haas
+   - Emily Chen
+   - Hyunji Hayley Park
 -
   title:    "Morphology Matters: A Multilingual Language Modeling Analysis"
   type:     "journal"
