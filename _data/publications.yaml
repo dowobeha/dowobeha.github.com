@@ -1,4 +1,15 @@
 -
+  title: "Primum Non Nocere: Before working with Indigenous data, the ACL must confront ongoing colonialism"
+  type: "inproceedings"
+  authors:
+   - "Lane Schwartz"
+  venue:     "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL'22)"
+  address:   "Dublin, Ireland"
+  date:      "May 2022"
+  month:     "May"
+  year:      "2022"
+  pdf:       "papers/acl22.pdf"
+-
   title:    "Morphology Matters: A Multilingual Language Modeling Analysis"
   type:     "journal"
   journal:  "Transactions of the ACL"
