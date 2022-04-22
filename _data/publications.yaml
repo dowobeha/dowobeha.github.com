@@ -9,6 +9,10 @@
   month:     "May"
   year:      "2022"
   pdf:       "papers/acl22.pdf"
+  slides:    
+    pdf:     "papers/acl22.presentation.pdf"
+  poster:    
+    pdf:     "papers/acl22.poster.pdf"
 -
   title:    "Akuzipik/Yupik (St. Lawrence Island, Alaska, USA; Chukotka, Russia) - Language Snapshot"
   type:     "journal"
