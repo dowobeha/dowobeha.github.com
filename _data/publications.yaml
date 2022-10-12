@@ -1,4 +1,20 @@
 -
+  title: "How to encode arbitrarily complex morphology in word embeddings, no corpus needed"
+  type: "inproceedings"
+  authors:
+   - "Lane Schwartz"
+   - "Coleman Haley"
+   - "Francis Tyers"
+  venue:     "Proceedings of the first workshop on NLP applications to field linguistics"
+  address:   "Gyeongju, South Korea"
+  date:      "Oct 2022"
+  month:     "Oct"
+  year:      "2022"
+  abstract:  "https://aclanthology.org/2022.fieldmatters-1.8/"
+  bib:       "https://aclanthology.org/2022.fieldmatters-1.8.bib"
+  code:      "https://github.com/neural-polysynthetic-language-modelling/iiksiin"
+  pdf:       "https://aclanthology.org/2022.fieldmatters-1.8.pdf"
+-
   title: "Primum Non Nocere: Before working with Indigenous data, the ACL must confront ongoing colonialism"
   type: "inproceedings"
   authors:
