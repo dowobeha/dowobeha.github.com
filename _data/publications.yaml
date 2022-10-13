@@ -24,7 +24,9 @@
   date:      "May 2022"
   month:     "May"
   year:      "2022"
-  pdf:       "papers/acl22.pdf"
+  abstract:  "https://aclanthology.org/2022.acl-short.82/"
+  bib:       "https://aclanthology.org/2022.acl-short.82.bib"
+  pdf:       "https://aclanthology.org/2022.acl-short.82.pdf"
   slides:    
     pdf:     "papers/acl22.presentation.pdf"
   poster:    
