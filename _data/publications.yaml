@@ -89,6 +89,28 @@
   abstract: "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00365/98237/Morphology-Matters-A-Multilingual-Language#3027685"
   code:     "https://github.com/hayleypark/MorphologyMatters"
 -
+  title:    "Depth-Bounded Statistical PCFG Induction as a Model of Human Grammar Acquisition"
+  type:     "journal"
+  journal:  "Computational Linguistics"
+  volume:   "47"
+  number:   "1"
+  pages:    "181-216"
+  publisher: "MIT Press"
+  address:  "Cambridge, MA"
+  month:    "March"
+  year:     "2021"
+  date:     "Mar 2021"
+  abstract: "https://aclanthology.org/2021.cl-1.7"
+  bib:      "https://aclanthology.org/2021.cl-1.7.bib"
+  code:     "https://github.com/lifengjin/pcfg_induction"
+  pdf:      "https://aclanthology.org/2021.cl-1.7.pdf"
+  authors:
+   - "Lifeng Jin"
+   - "Lane Schwartz"
+   - "Finale Doshi-Velez"
+   - "Timothy Miller"
+   - "William Schuler"  
+-
   title:    "A Digital Corpus of St. Lawrence Island Yupik"
   authors:
    - "Lane Schwartz"
