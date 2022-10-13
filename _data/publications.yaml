@@ -53,6 +53,23 @@
    - Emily Chen
    - Hyunji Hayley Park
 -
+  title: "Expanding Universal Dependencies for Polysynthetic Languages: A Case of St. Lawrence Island Yupik"
+  type: "inproceedings"
+  authors:
+   - Hyunji Hayley Park
+   - Lane Schwartz
+   - Francis Tyers
+  venue:     "Proceedings of the First Workshop on Natural Language Processing for Indigenous Languages of the Americas (AmericasNLP'21)"
+  address:   "Online"
+  year:     "2021"
+  month:    "June"
+  date:     "Jun 2021"
+  pages:    "131-142"
+  abstract: "https://aclanthology.org/2021.americasnlp-1.14"
+  bib:      "https://aclanthology.org/2021.americasnlp-1.14.bib"
+  pdf:      "https://aclanthology.org/2021.americasnlp-1.14.pdf"
+  data:     "https://universaldependencies.org/ess/index.html"
+-
   title:    "Morphology Matters: A Multilingual Language Modeling Analysis"
   type:     "journal"
   journal:  "Transactions of the ACL"
