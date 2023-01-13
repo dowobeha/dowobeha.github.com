@@ -206,13 +206,9 @@
   journal:  "Études Inuit Studies"
   volume:    "43"
   year:     "2019"
-  abstract: "papers/eis19.abstract.txt"
-  bib:      "papers/eis19.bib"
-  pdf:      "papers/eis19.pdf"
-  extras:
-    -
-      type:  "journal"
-      link:  "https://www.etudes-inuit-studies.ulaval.ca/en/content/release-issue-43-1-2"
+  abstract: "https://www.erudit.org/fr/revues/etudinuit/2019-v43-n1-2-etudinuit05546/1071949ar"
+  bib:      "https://www.erudit.org/fr/revues/etudinuit/2019-v43-n1-2-etudinuit05546/1071949ar.bib"
+  pdf:      "https://www.erudit.org/fr/revues/etudinuit/2019-v43-n1-2-etudinuit05546/1071949ar.pdf"
   authors:
    - "Lane Schwartz"
    - "Sylvia Schreiner"
