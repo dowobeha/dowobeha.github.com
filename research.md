@@ -20,9 +20,9 @@ order: 02
 
 * NNA: Collaborative Research: Integrating Language Documentation and Computational Tools for Yupik, an Alaska Native Language
   * Principal Investigator (PI) on $294,444 NSF grant
-    * University of Illinois at Urbana-Champaign
+    * University of Illinois at Urbana-Champaign / University of Alaska Fairbanks
     * George Mason University
-  * NSF [1761680](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1761680)
+  * NSF [1761680](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1761680) / [2243445](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2243445)
     * [Navigating the New Arctic](https://www.nsf.gov/news/special_reports/big_ideas/arctic.jsp)
     * ASSP-Arctic Social Science
     * Documenting Endangered Languages (DEL)
