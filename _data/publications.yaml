@@ -1,4 +1,14 @@
 -
+  authors:
+   - "Emily Chen"
+  title: "Modeling Saint Lawrence Island Yupik morphology to support revitalization"
+  venue: "Doctoral dissertation (University of Illinois at Urbana-Champaign), Lane Schwartz doctoral advisor"
+  date: "May 2023"
+  year: 2023
+  month: "May"
+  abstract: "https://hdl.handle.net/2142/120250"
+  pdf: "https://hdl.handle.net/2142/120250"
+-
   title: "How to encode arbitrarily complex morphology in word embeddings, no corpus needed"
   type: "inproceedings"
   authors:
