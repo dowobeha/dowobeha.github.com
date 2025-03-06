@@ -1,4 +1,16 @@
 -
+  title:    "Adaptive multi-use language technology for Alaska Native language preservation and education"
+  authors:
+   - "Lane Schwartz"
+  type:      "inproceedings"
+  venue:     "9th International Conference on Language Documentation and Conservation (ICLDC)"
+  address:   "Mānoa, Hawaiʻi"
+  month:     "March"
+  year:      "2025"
+  date:      "Mar 2025"
+  abstract:  "papers/icldc25.abstract.pdf"
+  code:      "https://github.com/SaintLawrenceIslandYupik/www/tree/main/books"
+-
   authors:
    - "Emily Chen"
   title: "Modeling Saint Lawrence Island Yupik morphology to support revitalization"
