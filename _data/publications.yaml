@@ -865,6 +865,7 @@
   latex:     "papers/phd.latex.tgz"
   slides:
     pdf:     "papers/phd.slides.pdf"
+    latex:   "papers/phd.slides.tgz"
 -
   type:      "inproceedings"
   title:     "Incremental Syntactic Language Models for Phrase-based Translation"
